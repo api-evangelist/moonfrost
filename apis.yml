@@ -1,8 +1,23 @@
 aid: moonfrost
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/moonfrost.png
 name: MoonFrost
-description: 'MoonFrost is a company surfaced as a portfolio company of pantera-capital and added to the
-  API Evangelist network as a stub for enrichment. Sector: crypto. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: 'MoonFrost is a cozy life-sim RPG developed by Oxalis Games Ltd., set in a world ravaged
+  by constant meteor storms where players farm, fish, craft, and build their dream home. Positioned as
+  a Web3 game, it is backed by crypto investor Pantera Capital and is available to wishlist on Steam and
+  the Epic Games Store, with a community on Discord. As of this profile, MoonFrost publishes no public
+  API, developer documentation, SDK, or developer portal — it is a consumer game rather than an API
+  provider, so this record is identity-only pending any future developer surface.'
 url: https://raw.githubusercontent.com/api-evangelist/moonfrost/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +27,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Crypto
+- Web3
+- Gaming
+- Video Games
+- RPG
+- Life Sim
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +43,16 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/moonfrost-domain-security.yml
 - type: Website
   url: https://moonfrost.io/
+- type: PrivacyPolicy
+  url: https://www.moonfrost.io/privacy-policy
+- type: Support
+  url: https://discord.com/invite/nfwtMuyjXN
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
